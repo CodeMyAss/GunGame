@@ -12,7 +12,7 @@ import com.techopvp.guns.utilities.enums.GunType;
 
 public class Guns {
 
-	static ArrayList<GunManager> guns = new ArrayList<GunManager>();
+	ArrayList<GunManager> guns = new ArrayList<GunManager>();
 
 	public Guns() {
 		guns.add(new Colt45());
