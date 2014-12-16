@@ -49,7 +49,7 @@ public class Guns {
 		Random random = new Random();
 
 		System.out.println("You have fired a " + gun.getGun().getGunName()
-				+ " it went " + random.nextInt(gun.getGun().getGunRange()) + " feet");
+				+ " it went " + random.nextInt(gun.getGun().getGunRange()) + " feet" + ".");
 	}
 
 }
