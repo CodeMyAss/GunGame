@@ -4,12 +4,12 @@ import com.techopvp.guns.utilities.enums.GunType;
 
 public class GunManager {
 	
-	private String gunName;
+//	private String gunName;
 	private GunType type;
 	private int power, range, id;
 	
 	public GunManager(String gunName, int power, int range, int id, GunType type) {
-		this.gunName = gunName;
+//		this.gunName = gunName;
 		this.power = power;
 		this.range = range;
 		this.id = id;
@@ -17,7 +17,7 @@ public class GunManager {
 	}
 	
 	public String getGunName() {
-		return gunName;
+		return "";
 	}
 	
 	public int getGunPower() {
