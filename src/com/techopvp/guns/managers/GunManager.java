@@ -4,9 +4,9 @@ import com.techopvp.guns.utilities.enums.GunType;
 
 public class GunManager {
 	
-	String gunName;
-	int power, range, id;
-	GunType type;
+	private String gunName;
+	private GunType type;
+	private int power, range, id;
 	
 	public GunManager(String gunName, int power, int range, int id, GunType type) {
 		this.gunName = gunName;
